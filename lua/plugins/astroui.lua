@@ -14,28 +14,9 @@ return {
     -- change colorscheme
     colorscheme = "onedark",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
-    guifont = "Geist Mono",
     highlights = {
       init = { -- this table overrides highlights in all themes
-        Normal = { bg = bg },
-        NormalNC = { bg = bg },
-        NormalFloat = { bg = bg },
-        SignColumn = { bg = bg },
-        -- LineNr = { bg = bg },
-        -- IndentBlanklineChar = { fg = "#2c323c" }, -- Adjust the color to fit your theme
-        -- IndentBlanklineContextChar = { fg = "#3e4451" }, -- Context indentation lines
-        CursorLine = { bg = bg },
-        StatusLine = { bg = bg },
-        StatusLineNC = { bg = bg },
-        Pmenu = { bg = bg },
-        PmenuSel = { bg = bg },
-        PmenuSbar = { bg = bg },
-        PmenuThumb = { bg = bg },
-        TabLine = { bg = bg },
-        TabLineFill = { bg = bg },
-        NeotreeNormal = { bg = bg },
-        NeoTreeNormal = { bg = bg },
-        FloatTitle = { bg = bg },
+        -- Normal = { bg = bg},
       },
       astrodark = { -- a table of overrides/changes when applying the astrotheme theme
         -- Normal = { bg = "#000000" },
